@@ -22,8 +22,7 @@ class sanitation_SS(unittest.TestCase):
         self.assertEqual(len(divide_two_columns(df, "sanitation", "population", "div").columns), 3)
 
     def test_sum_at_index(self):
-        df = wbdata.get_dataframe(indicators, country = ["BRA", "VGB", "BOL", "BIH",
-"BWA"], convert_date = False)
+        df = wbdata.get_dataframe(indicators, country = ["BRA", "VGB", "BOL", "BIH", "BWA"], convert_date = False)
         self.assertEqual(len(sum_at_index(df, "country")), 5)
 
     def test_clean_data(self):
