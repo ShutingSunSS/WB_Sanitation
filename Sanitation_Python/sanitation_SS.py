@@ -17,7 +17,7 @@ indicators_sanitation = {'SH.STA.SMSS.ZS':'sanitation'}
 indicators_population = {'SP.POP.TOTL':'population'}
 indicators = {'SH.STA.SMSS.ZS':'sanitation', 'SP.POP.TOTL':'population'}
 
-def countries_incomelevel(inc): # Parameter inc is the incomelevel 
+def countries_incomelevel(inc): # Parameter inc is the income level 
     """Get country codes for any given income level"""
     """BY INCOME
         Low-income economies - LIC
