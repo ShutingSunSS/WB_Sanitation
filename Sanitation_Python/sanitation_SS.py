@@ -96,7 +96,7 @@ def main():
     ax2 = plt.subplot(grid[1:, 0])
     overall_trend(ax1)
     incomelevel_sanitation_trend(ax2)
-    plt.rcParams['figure.figsize'] = [12, 8] # creates a figure with 12 (width) x 8 (height), for 
+    plt.rcParams['figure.figsize'] = [12, 8] # creates a figure with 12 (width) x 8 (height)
     plt.show()
  
 if __name__ == "__main__":
