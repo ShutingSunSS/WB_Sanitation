@@ -45,7 +45,7 @@ def sum_at_index(df, ind):
     return df1
 
 def clean_data(df):
-    """for any given dataframe(df), drop the rows with at one least missing value, and sort dataframe by index"""
+    """for any given dataframe(df), drop the rows with at least one missing value, and sort dataframe by index"""
     df_clean = df.dropna().sort_index()
     return df_clean
      
