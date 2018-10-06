@@ -11891,7 +11891,7 @@ div#notebook {
     <span class="n">ax2</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">grid</span><span class="p">[</span><span class="mi">1</span><span class="p">:,</span> <span class="mi">0</span><span class="p">])</span>
     <span class="n">overall_trend</span><span class="p">(</span><span class="n">ax1</span><span class="p">)</span>
     <span class="n">incomelevel_sanitation_trend</span><span class="p">(</span><span class="n">ax2</span><span class="p">)</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span> <span class="c1"># creates a figure with 12 (width) x 8 (height), for </span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s1">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">12</span><span class="p">,</span> <span class="mi">8</span><span class="p">]</span> <span class="c1"># creates a figure with 12 (width) x 8 (height)</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
  
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
@@ -11936,8 +11936,8 @@ div#notebook {
 
 <pre><code>1. Use code 'SH.STA.SMSS.ZS' to get safely managed sanitation facilities (% of population with access) data. 
 2. Use code 'SP.POP.TOTL' to get population data.
-2. Drop the rows with missing population data or missing sanitation data.
-3. Use weighted arithmetic mean to calculate the sanitation facilities (% population) for different regions.
+3. Drop the rows with missing population data or missing sanitation data.
+4. Use weighted arithmetic mean to calculate the sanitation facilities (% population) for different regions.
    (population_1 * sanitation_1 +...+ population_n * sanitation_n)/(population_1 +...+ population_n)      
 </code></pre>
 <p>For the 4 income groups, the trend of safely managed sanitation facilities (% of population with access):</p>
